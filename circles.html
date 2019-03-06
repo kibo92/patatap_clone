@@ -10,9 +10,9 @@
     <script type="text/paperscript"  canvas="myCanvas">
     
         function onKeyDown(event) {
-
-            var maxPoint = new Point(view.size.width, view.size.height);
-            var randomPoint = Point.random();
+            //creating max view point of canvas on screen
+            var maxPoint = new Point(view.size.width, view.size.height); //1280, 720
+            var randomPoint = Point.random(); //5, 5
             var point = maxPoint * randomPoint;
 
 
